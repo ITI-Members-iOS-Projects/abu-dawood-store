@@ -29,7 +29,7 @@ class CairoSemiBold: UILabel {
         
     }
     private func updateView() {
-        self.font = UIFont(name: "Cairo-SemiBold.ttf", size: fontSize)!
+        self.font = R.font.cairoSemiBold.callAsFunction(size: fontSize)
     }
     
 }

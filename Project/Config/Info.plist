@@ -6,6 +6,7 @@
 	<array>
 		<string>Cairo-Regular.ttf</string>
 		<string>Cairo-SemiBold.ttf</string>
+		<string>Cairo-Bold.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

@@ -25,7 +25,8 @@ final class SplashViewModel: BaseViewModelProtocol {
     }
 
     private func showHome() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) { [weak self] in
+        viewStatesPublisher.send(.splash)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 4.0) { [weak self] in
             guard let self = self else {return}
             let isThatSecondTime = UserDefaultsManager.sharedInstance.checkingShowingOnboarding()
             let isLoggedIn = UserDefaultsManager.sharedInstance.isLoggedIn()

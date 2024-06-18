@@ -1,15 +1,15 @@
 //
-//  Cairo-Regular.swift
+//  Cairo-Bold.swift
 //  Abu Dawood
 //
-//  Created by Fady Sameh on 6/13/24.
+//  Created by Fady Sameh on 6/18/24.
 //
 
 import Foundation
 import UIKit
 
 @IBDesignable
-class CairoRegular: UILabel {
+class CairoBold: UILabel {
     
     @IBInspectable var fontSize: CGFloat = 12 {
         didSet {
@@ -29,7 +29,7 @@ class CairoRegular: UILabel {
         
     }
     private func updateView() {
-        self.font = R.font.cairoRegular.callAsFunction(size: fontSize)
+        self.font = R.font.cairoBold.callAsFunction(size: fontSize)
     }
     
 }

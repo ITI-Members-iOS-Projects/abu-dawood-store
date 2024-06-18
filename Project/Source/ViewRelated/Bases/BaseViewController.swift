@@ -46,6 +46,27 @@ class BaseViewController<T: BaseViewModelProtocol>: UIViewController {
         view.backgroundColor = .white.withAlphaComponent(0.4)
         return view
     }()
+    
+    private lazy var splashLoadingView: UIView = {
+        let activity = UIActivityIndicatorView(style: .large)
+        let view = UIView(frame: self.view.frame)
+        
+        activity.translatesAutoresizingMaskIntoConstraints = false
+        activity.hidesWhenStopped = true
+        activity.startAnimating()
+        
+        // Scale the activity indicator to make it larger
+        activity.transform = CGAffineTransform(scaleX: 1.5, y: 1.5)
+        
+        view.addSubview(activity)
+        
+        NSLayoutConstraint.activate([
+            activity.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -100),
+            activity.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+        ])
+        
+        return view
+    }()
 
     init(viewModel: T) {
         self.viewModel = viewModel
@@ -64,6 +85,8 @@ class BaseViewController<T: BaseViewModelProtocol>: UIViewController {
                 removeLoadingView()
             case .loading:
                 addLoadingView()
+            case .splash:
+                addSplashLoadingView()
             case .error(let error):
                 removeLoadingView()
                 if let error = error as? ResultError {
@@ -83,6 +106,11 @@ class BaseViewController<T: BaseViewModelProtocol>: UIViewController {
     final private func addLoadingView() {
         loadingView.center = view.center
         view.addSubview(loadingView)
+    }
+    
+    final private func addSplashLoadingView() {
+        splashLoadingView.center = view.center
+        view.addSubview(splashLoadingView)
     }
     
     final private func removeLoadingView() {
