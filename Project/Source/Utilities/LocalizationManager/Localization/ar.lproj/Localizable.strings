@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Abu Dawood
+
+  Created by MESHO on 29/05/2024.
+  
+*/
+
+"regFrom"="Registration Form";
+"invoiceNum"="Invoice Number";
+"poNumber"="PO Number";
+"driverName"="Driver Name";
+"phoneNum"="Phone Number";
+"arrivalDate"="Arrival Date";
+"register"="Register";
+"verify"="Verify";
+"Submit"="Submit done";

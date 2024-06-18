@@ -1,0 +1,15 @@
+//
+//  Debug.xcconfig
+//  Abu Dawood
+//
+//  Created by Fady Sameh on 6/13/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+base = https:/
+domain = abudawoodbackend-test.odoo.com/api/
+APPLICATION_NAME = Abu Dawood App
+BUNDLE_IDENTIFIER = iTi.Abu-Dawood
+SERVER_URL = $(base)/$(domain)
+API_TOKEN = shouldBeRealToken

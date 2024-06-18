@@ -1,0 +1,15 @@
+//
+//  Release.xcconfig
+//  Abu Dawood
+//
+//  Created by Fady Sameh on 6/13/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+base = https:/
+domain = 41.65.46.146:8001/
+APPLICATION_NAME = Security App
+BUNDLE_IDENTIFIER = com.Speed.XERA.SecurityApp
+SERVER_URL = $(base)/$(domain)
+API_TOKEN = shouldBeRealToken
