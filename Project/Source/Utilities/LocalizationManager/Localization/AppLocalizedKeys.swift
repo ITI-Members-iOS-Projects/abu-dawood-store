@@ -11,6 +11,10 @@ import UIKit
 enum AppLocalizedKeys: String, CaseIterable {
     case none
     
+    // MARK: - Splash Module
+    case welcomeAbuDawood
+    case secondWelcomeTitle
+    
     // MARK: - Auth Module
     case invoiceNum
     case reponseDataNullKey

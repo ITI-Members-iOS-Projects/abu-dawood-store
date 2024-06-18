@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Onboarding" customModule="Abu_Dawood" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Splash" customModule="Abu_Dawood" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -18,22 +18,79 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="qIg-9S-keE">
-                    <rect key="frame" x="39.333333333333343" y="310.66666666666669" width="314.33333333333326" height="255.66666666666669"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="ytK-IV-NDy">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                 </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="iDt-7P-bb2" customClass="CairoBold" customModule="Abu_Dawood" customModuleProvider="target">
+                    <rect key="frame" x="2.6666666666666714" y="280.66666666666669" width="235.66666666666663" height="30.333333333333314"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                            <real key="value" value="32"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="welcomeAbuDawood"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AbuDawoodLogo" translatesAutoresizingMaskIntoConstraints="NO" id="5q4-YR-WeN">
+                    <rect key="frame" x="116.66666666666669" y="179" width="160" height="71.666666666666686"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="71.700000000000003" id="P2I-Qh-dZc"/>
+                        <constraint firstAttribute="width" constant="160" id="SIV-de-0QN"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" image="Pattern" translatesAutoresizingMaskIntoConstraints="NO" id="MEE-KS-lre">
+                    <rect key="frame" x="0.0" y="319" width="393" height="499"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="crr-Xn-yLh" customClass="CairoRegular" customModule="Abu_Dawood" customModuleProvider="target">
+                    <rect key="frame" x="-36.666666666666657" y="341" width="314.33333333333326" height="20.333333333333314"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                            <real key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="secondWelcomeTitle"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="qIg-9S-keE" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="DIh-Do-9Nn"/>
-                <constraint firstItem="qIg-9S-keE" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.8" id="Q2c-yP-64k"/>
-                <constraint firstItem="qIg-9S-keE" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="r6V-6z-ASI"/>
-                <constraint firstItem="qIg-9S-keE" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.3" id="vno-Hi-c2l"/>
+                <constraint firstItem="5q4-YR-WeN" firstAttribute="centerX" secondItem="ytK-IV-NDy" secondAttribute="centerX" id="7Ib-Ns-1iS"/>
+                <constraint firstItem="iDt-7P-bb2" firstAttribute="width" secondItem="ytK-IV-NDy" secondAttribute="width" multiplier="0.6" id="92N-xm-ID6"/>
+                <constraint firstItem="iDt-7P-bb2" firstAttribute="top" secondItem="5q4-YR-WeN" secondAttribute="bottom" constant="30" id="KNc-sI-eyJ"/>
+                <constraint firstItem="5q4-YR-WeN" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="120" id="Md9-b7-nki"/>
+                <constraint firstItem="crr-Xn-yLh" firstAttribute="top" secondItem="iDt-7P-bb2" secondAttribute="bottom" constant="30" id="Nih-Yc-2DW"/>
+                <constraint firstItem="MEE-KS-lre" firstAttribute="top" secondItem="iDt-7P-bb2" secondAttribute="bottom" constant="8" id="Qtc-8b-o7F"/>
+                <constraint firstItem="ytK-IV-NDy" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="WdY-H3-EVR"/>
+                <constraint firstItem="ytK-IV-NDy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="c1W-XO-Ohy"/>
+                <constraint firstAttribute="bottom" secondItem="ytK-IV-NDy" secondAttribute="bottom" id="e7E-aI-enX"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="MEE-KS-lre" secondAttribute="bottom" id="gU2-Ui-NYf"/>
+                <constraint firstItem="crr-Xn-yLh" firstAttribute="width" secondItem="ytK-IV-NDy" secondAttribute="width" multiplier="0.8" id="geh-Fb-mHN"/>
+                <constraint firstItem="MEE-KS-lre" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="icn-ER-zyf"/>
+                <constraint firstItem="crr-Xn-yLh" firstAttribute="centerX" secondItem="iDt-7P-bb2" secondAttribute="centerX" id="ir9-A2-lSQ"/>
+                <constraint firstItem="ytK-IV-NDy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="jVi-Ya-KEf"/>
+                <constraint firstItem="MEE-KS-lre" firstAttribute="leading" secondItem="iDt-7P-bb2" secondAttribute="trailing" constant="-238.33333333333331" id="rYs-vn-S4L"/>
+                <constraint firstItem="iDt-7P-bb2" firstAttribute="centerX" secondItem="ytK-IV-NDy" secondAttribute="centerX" id="sao-dv-HH7"/>
+                <constraint firstItem="MEE-KS-lre" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="xKq-9e-f2I"/>
             </constraints>
-            <point key="canvasLocation" x="21" y="20"/>
+            <point key="canvasLocation" x="20.610687022900763" y="19.718309859154932"/>
         </view>
     </objects>
+    <designables>
+        <designable name="crr-Xn-yLh">
+            <size key="intrinsicContentSize" width="41.333333333333336" height="20.333333333333332"/>
+        </designable>
+        <designable name="iDt-7P-bb2">
+            <size key="intrinsicContentSize" width="41.333333333333336" height="20.333333333333332"/>
+        </designable>
+    </designables>
     <resources>
-        <image name="logo" width="1024" height="1024"/>
+        <image name="AbuDawoodLogo" width="1024" height="1024"/>
+        <image name="BG" width="375" height="812"/>
+        <image name="Pattern" width="375" height="499"/>
     </resources>
 </document>

@@ -17,6 +17,8 @@ enum ViewState {
 
     /// The view is in a loading state, indicating that some operation is in progress.
     case loading
+    
+    case splash
 
     /// The view is in an error state, with an associated error that provides details about the error condition.
     case error(Error)

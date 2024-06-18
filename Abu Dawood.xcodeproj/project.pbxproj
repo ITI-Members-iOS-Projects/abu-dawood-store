@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		006018AD2C211F3300F06794 /* Cairo-Bold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006018AC2C211F3300F06794 /* Cairo-Bold.swift */; };
+		006018AF2C2121C200F06794 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 006018AB2C211F1900F06794 /* Cairo-Bold.ttf */; };
+		006018B22C2121C800F06794 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00C6ED642C1B033200FC0970 /* Cairo-Regular.ttf */; };
+		006018B42C21246300F06794 /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00C6ED612C1B033200FC0970 /* Cairo-SemiBold.ttf */; };
 		00C6ED662C1B033200FC0970 /* Cairo-SemiBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6ED652C1B033200FC0970 /* Cairo-SemiBold.swift */; };
 		00C6ED672C1B033200FC0970 /* Cairo-Regular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6ED622C1B033200FC0970 /* Cairo-Regular.swift */; };
 		00C6ED682C1B033200FC0970 /* CairoButton-SemiBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6ED632C1B033200FC0970 /* CairoButton-SemiBold.swift */; };
@@ -113,6 +117,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		006018AB2C211F1900F06794 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		006018AC2C211F3300F06794 /* Cairo-Bold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cairo-Bold.swift"; sourceTree = "<group>"; };
 		00C6ED612C1B033200FC0970 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
 		00C6ED622C1B033200FC0970 /* Cairo-Regular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cairo-Regular.swift"; sourceTree = "<group>"; };
 		00C6ED632C1B033200FC0970 /* CairoButton-SemiBold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CairoButton-SemiBold.swift"; sourceTree = "<group>"; };
@@ -241,6 +247,7 @@
 				00C6ED6A2C1B035000FC0970 /* Label */,
 				00C6ED642C1B033200FC0970 /* Cairo-Regular.ttf */,
 				00C6ED612C1B033200FC0970 /* Cairo-SemiBold.ttf */,
+				006018AB2C211F1900F06794 /* Cairo-Bold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -250,6 +257,7 @@
 			children = (
 				00C6ED622C1B033200FC0970 /* Cairo-Regular.swift */,
 				00C6ED652C1B033200FC0970 /* Cairo-SemiBold.swift */,
+				006018AC2C211F3300F06794 /* Cairo-Bold.swift */,
 			);
 			path = Label;
 			sourceTree = "<group>";
@@ -771,12 +779,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006018B22C2121C800F06794 /* Cairo-Regular.ttf in Resources */,
 				A7972EEF2C07697800A63044 /* Localizable.strings in Resources */,
+				006018B42C21246300F06794 /* Cairo-SemiBold.ttf in Resources */,
 				A7972F132C076C8C00A63044 /* HomeViewController.xib in Resources */,
 				00C6ED762C1B123900FC0970 /* Splash.xib in Resources */,
 				A7972E8D2C074C4100A63044 /* Assets.xcassets in Resources */,
 				00C6ED8A2C1B2E0000FC0970 /* AuthViewController.xib in Resources */,
 				00C6ED7F2C1B1F6F00FC0970 /* Onboarding.xib in Resources */,
+				006018AF2C2121C200F06794 /* Cairo-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -822,6 +833,7 @@
 				A7972F7E2C07702500A63044 /* Extensions + URL.swift in Sources */,
 				A7972F442C076FFB00A63044 /* UITableView+Extension.swift in Sources */,
 				A7583EC32C0DB67A004F0908 /* CustomTabBar.swift in Sources */,
+				006018AD2C211F3300F06794 /* Cairo-Bold.swift in Sources */,
 				00C6ED672C1B033200FC0970 /* Cairo-Regular.swift in Sources */,
 				A7972F4D2C076FFC00A63044 /* SwipeGesture+DD.swift in Sources */,
 				A7972F7F2C07702500A63044 /* UIFont+DD.swift in Sources */,
@@ -1054,7 +1066,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZF5RK26287;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1084,7 +1096,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZF5RK26287;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
