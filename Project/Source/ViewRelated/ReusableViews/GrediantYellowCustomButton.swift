@@ -25,7 +25,7 @@ class YellowCustomButton: UIButton {
         self.layer.cornerRadius = 5
         self.clipsToBounds = true
         self.setTitleColor(.white, for: .normal)
-        self.titleLabel?.font = UIFont.systemFont(ofSize: 16)
+        self.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
         self.applyGradient(colors: [.customGold, .customYellow])
     }
 
@@ -33,8 +33,8 @@ class YellowCustomButton: UIButton {
     private func applyGradient(colors: [UIColor]) {
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = colors.map { $0.cgColor }
-        gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.5)
-        gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
+        gradientLayer.startPoint = CGPoint(x: 0, y: 0.0)
+        gradientLayer.endPoint = CGPoint(x: 0, y: 1.0)
         gradientLayer.frame = self.bounds
         gradientLayer.cornerRadius = self.layer.cornerRadius
 
