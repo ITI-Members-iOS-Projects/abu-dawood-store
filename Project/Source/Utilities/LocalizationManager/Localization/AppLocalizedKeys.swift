@@ -15,6 +15,12 @@ enum AppLocalizedKeys: String, CaseIterable {
     case welcomeAbuDawood
     case secondWelcomeTitle
     
+    // MARK: - Onboardig Module
+    case onboardingTitle
+    case onboardingSubtitle
+    case next
+    case skip
+    
     // MARK: - Auth Module
     case invoiceNum
     case reponseDataNullKey

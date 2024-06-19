@@ -21,7 +21,8 @@ final class SplashViewModel: BaseViewModelProtocol {
     }
     
     func viewModelDidLoad() {
-        showHome()
+//        showHome()
+        coordinator?.showOnboarding()
     }
 
     private func showHome() {

@@ -14,6 +14,12 @@ final class OnboardingViewModel: BaseViewModelProtocol {
 
     private var cancellables = Set<AnyCancellable>()
     
+    private let images = [
+        R.image.image.name,
+        R.image.image2.name,
+        R.image.maskGroup.name
+    ]
+    
     init(coordinator: HomeCoordinatorContact? = nil) {
         self.coordinator = coordinator
     }
@@ -22,4 +28,17 @@ final class OnboardingViewModel: BaseViewModelProtocol {
         // TODO: Refactor this function to improve performance
     }
     
+    func showAuth() {
+        coordinator?.showAuth()
+    }
+    
+}
+
+extension OnboardingViewModel {
+    func itemAtSectionIndex(indexPath: IndexPath) -> String {
+        return images[indexPath.item]
+    }
+    func numberOfItems() -> Int {
+        return images.count
+    }
 }

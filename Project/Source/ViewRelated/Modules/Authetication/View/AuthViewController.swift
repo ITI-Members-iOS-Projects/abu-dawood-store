@@ -12,7 +12,7 @@ class AuthViewController: BaseViewController<AuthViewModel> {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // TODO: Refactor this function to improve performance
     }
 
 
