@@ -1,15 +1,15 @@
 //
-//  CairoButton-SemiBold.swift
+//  CairoButtonRegular.swift
 //  Abu Dawood
 //
-//  Created by Fady Sameh on 6/13/24.
+//  Created by Fady Sameh on 6/19/24.
 //
 
 import Foundation
 import UIKit
 
 @IBDesignable
-class CairoButtonSemiBold: UIButton {
+class CairoButtonRegular: UIButton {
     
     @IBInspectable var fontSize: CGFloat = 12 {
         didSet {
@@ -29,7 +29,7 @@ class CairoButtonSemiBold: UIButton {
         
     }
     private func updateView() {
-        self.titleLabel?.font = R.font.cairoSemiBold.callAsFunction(size: fontSize)
+        self.titleLabel?.font = R.font.cairoRegular.callAsFunction(size: fontSize)
     }
     
 }

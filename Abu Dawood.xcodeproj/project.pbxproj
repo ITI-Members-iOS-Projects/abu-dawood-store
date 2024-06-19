@@ -11,6 +11,10 @@
 		006018AF2C2121C200F06794 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 006018AB2C211F1900F06794 /* Cairo-Bold.ttf */; };
 		006018B22C2121C800F06794 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00C6ED642C1B033200FC0970 /* Cairo-Regular.ttf */; };
 		006018B42C21246300F06794 /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00C6ED612C1B033200FC0970 /* Cairo-SemiBold.ttf */; };
+		0081FC032C23017700071737 /* CairoButtonRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0081FC022C23017700071737 /* CairoButtonRegular.swift */; };
+		0081FC062C2318D700071737 /* UIButtonGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0081FC052C2318D700071737 /* UIButtonGradient.swift */; };
+		0083C6672C21BBE5003890F1 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083C6652C21BBE5003890F1 /* OnboardingCollectionViewCell.swift */; };
+		0083C6682C21BBE5003890F1 /* OnboardingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0083C6662C21BBE5003890F1 /* OnboardingCollectionViewCell.xib */; };
 		00C6ED662C1B033200FC0970 /* Cairo-SemiBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6ED652C1B033200FC0970 /* Cairo-SemiBold.swift */; };
 		00C6ED672C1B033200FC0970 /* Cairo-Regular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6ED622C1B033200FC0970 /* Cairo-Regular.swift */; };
 		00C6ED682C1B033200FC0970 /* CairoButton-SemiBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6ED632C1B033200FC0970 /* CairoButton-SemiBold.swift */; };
@@ -119,6 +123,10 @@
 /* Begin PBXFileReference section */
 		006018AB2C211F1900F06794 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		006018AC2C211F3300F06794 /* Cairo-Bold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cairo-Bold.swift"; sourceTree = "<group>"; };
+		0081FC022C23017700071737 /* CairoButtonRegular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CairoButtonRegular.swift; sourceTree = "<group>"; };
+		0081FC052C2318D700071737 /* UIButtonGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonGradient.swift; sourceTree = "<group>"; };
+		0083C6652C21BBE5003890F1 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		0083C6662C21BBE5003890F1 /* OnboardingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingCollectionViewCell.xib; sourceTree = "<group>"; };
 		00C6ED612C1B033200FC0970 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
 		00C6ED622C1B033200FC0970 /* Cairo-Regular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cairo-Regular.swift"; sourceTree = "<group>"; };
 		00C6ED632C1B033200FC0970 /* CairoButton-SemiBold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CairoButton-SemiBold.swift"; sourceTree = "<group>"; };
@@ -240,6 +248,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0083C6642C21BBC4003890F1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0083C6652C21BBE5003890F1 /* OnboardingCollectionViewCell.swift */,
+				0083C6662C21BBE5003890F1 /* OnboardingCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		00C6ED692C1B033D00FC0970 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				00C6ED632C1B033200FC0970 /* CairoButton-SemiBold.swift */,
+				0081FC022C23017700071737 /* CairoButtonRegular.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -359,6 +377,7 @@
 		A7583EBE2C0DB58B004F0908 /* OnboardingModules */ = {
 			isa = PBXGroup;
 			children = (
+				0083C6642C21BBC4003890F1 /* Cells */,
 				00C6ED7B2C1B1F4C00FC0970 /* ViewModel */,
 				00C6ED7A2C1B1F4600FC0970 /* View */,
 			);
@@ -653,6 +672,7 @@
 				A7972F342C076FF900A63044 /* UITextField+DD.swift */,
 				A7972F242C076FF300A63044 /* UIView+DD.swift */,
 				A7972F2E2C076FF700A63044 /* UIViewController+DD.swift */,
+				0081FC052C2318D700071737 /* UIButtonGradient.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -783,6 +803,7 @@
 				A7972EEF2C07697800A63044 /* Localizable.strings in Resources */,
 				006018B42C21246300F06794 /* Cairo-SemiBold.ttf in Resources */,
 				A7972F132C076C8C00A63044 /* HomeViewController.xib in Resources */,
+				0083C6682C21BBE5003890F1 /* OnboardingCollectionViewCell.xib in Resources */,
 				00C6ED762C1B123900FC0970 /* Splash.xib in Resources */,
 				A7972E8D2C074C4100A63044 /* Assets.xcassets in Resources */,
 				00C6ED8A2C1B2E0000FC0970 /* AuthViewController.xib in Resources */,
@@ -836,6 +857,7 @@
 				006018AD2C211F3300F06794 /* Cairo-Bold.swift in Sources */,
 				00C6ED672C1B033200FC0970 /* Cairo-Regular.swift in Sources */,
 				A7972F4D2C076FFC00A63044 /* SwipeGesture+DD.swift in Sources */,
+				0081FC062C2318D700071737 /* UIButtonGradient.swift in Sources */,
 				A7972F7F2C07702500A63044 /* UIFont+DD.swift in Sources */,
 				00C6ED722C1B121800FC0970 /* SplashViewModel.swift in Sources */,
 				A7972F722C07702500A63044 /* Bundle+DD.swift in Sources */,
@@ -843,6 +865,7 @@
 				A7972F7A2C07702500A63044 /* Date+DD.swift in Sources */,
 				00C6ED662C1B033200FC0970 /* Cairo-SemiBold.swift in Sources */,
 				00C6ED822C1B1F7E00FC0970 /* OnboardingVM.swift in Sources */,
+				0083C6672C21BBE5003890F1 /* OnboardingCollectionViewCell.swift in Sources */,
 				A7972F152C076EEF00A63044 /* KeychainSwift+Extension.swift in Sources */,
 				A7972F1A2C076F2A00A63044 /* SharedRefrences.swift in Sources */,
 				A7972EE82C07677100A63044 /* AppLocalizedKeys.swift in Sources */,
@@ -897,6 +920,7 @@
 				A7972F4C2C076FFB00A63044 /* UIEdgeInsets+DD.swift in Sources */,
 				00C6ED892C1B2E0000FC0970 /* AuthViewController.swift in Sources */,
 				A7972F512C076FFC00A63044 /* UIButton+DD.swift in Sources */,
+				0081FC032C23017700071737 /* CairoButtonRegular.swift in Sources */,
 				A7972F462C076FFB00A63044 /* UIStoryboard+DD.swift in Sources */,
 				A7972F532C076FFC00A63044 /* PHAssetCollection.swift in Sources */,
 				A7972F6F2C07702500A63044 /* NumberConvertible.swift in Sources */,

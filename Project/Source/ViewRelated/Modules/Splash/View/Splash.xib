@@ -19,10 +19,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="ytK-IV-NDy">
-                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="852"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="iDt-7P-bb2" customClass="CairoBold" customModule="Abu_Dawood" customModuleProvider="target">
-                    <rect key="frame" x="2.6666666666666714" y="280.66666666666669" width="235.66666666666663" height="30.333333333333314"/>
+                    <rect key="frame" x="13.333333333333329" y="280.66666666666669" width="225" height="30.333333333333314"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -33,18 +33,18 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="welcomeAbuDawood"/>
                     </userDefinedRuntimeAttributes>
                 </label>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AbuDawoodLogo" translatesAutoresizingMaskIntoConstraints="NO" id="5q4-YR-WeN">
-                    <rect key="frame" x="116.66666666666669" y="179" width="160" height="71.666666666666686"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AbuDawoodLogo" translatesAutoresizingMaskIntoConstraints="NO" id="5q4-YR-WeN">
+                    <rect key="frame" x="107.66666666666669" y="179" width="160" height="71.666666666666686"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="71.700000000000003" id="P2I-Qh-dZc"/>
                         <constraint firstAttribute="width" constant="160" id="SIV-de-0QN"/>
                     </constraints>
                 </imageView>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" image="Pattern" translatesAutoresizingMaskIntoConstraints="NO" id="MEE-KS-lre">
-                    <rect key="frame" x="0.0" y="319" width="393" height="499"/>
+                    <rect key="frame" x="0.0" y="319" width="375" height="499"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="crr-Xn-yLh" customClass="CairoRegular" customModule="Abu_Dawood" customModuleProvider="target">
-                    <rect key="frame" x="-36.666666666666657" y="341" width="314.33333333333326" height="20.333333333333314"/>
+                    <rect key="frame" x="-24.333333333333329" y="341" width="300.33333333333331" height="20.333333333333314"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
