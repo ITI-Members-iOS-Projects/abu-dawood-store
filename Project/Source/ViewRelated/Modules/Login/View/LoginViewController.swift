@@ -8,10 +8,11 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+    @IBOutlet weak var buttonView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        buttonView.addUpperDropShadow()
         // Do any additional setup after loading the view.
     }
 

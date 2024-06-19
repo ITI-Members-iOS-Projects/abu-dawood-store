@@ -246,6 +246,15 @@ public extension UIView {
         
         return gradientLayer
     }
+    func addUpperDropShadow() {
+        self.layer.shadowColor = UIColor.shadowBlack.cgColor
+        self.layer.shadowOpacity = 0.5
+        self.layer.shadowOffset = CGSize(width: 0, height: -5) // Negative height to place shadow above the view
+        self.layer.shadowRadius = 5
+        self.layer.masksToBounds = false
+        let shadowPath = UIBezierPath(rect: CGRect(x: 0, y: -self.layer.shadowRadius, width: self.bounds.width, height: self.bounds.height + self.layer.shadowRadius))
+        self.layer.shadowPath = shadowPath.cgPath
+    }
 }
 
 // MARK: Transform Extensions
