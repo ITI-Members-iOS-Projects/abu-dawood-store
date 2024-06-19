@@ -419,11 +419,35 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		5E6AAA3C2C2357AA00586B54 /* New Group */ = {
+		5E6AAA3C2C2357AA00586B54 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5E6AAA3F2C235F8900586B54 /* Entities */,
+				5E6AAA402C235F9500586B54 /* UseCases */,
+				5E6AAA412C235FA900586B54 /* GateWay */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5E6AAA3F2C235F8900586B54 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group";
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		5E6AAA402C235F9500586B54 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		5E6AAA412C235FA900586B54 /* GateWay */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GateWay;
 			sourceTree = "<group>";
 		};
 		A74E95AF2C0C9C4C00115E79 /* UseCase */ = {
@@ -491,7 +515,7 @@
 		A7972E972C074C5800A63044 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				5E6AAA3C2C2357AA00586B54 /* New Group */,
+				5E6AAA3C2C2357AA00586B54 /* Core */,
 				A7972EBD2C075F5000A63044 /* Utilities */,
 				A7972EBC2C075F4800A63044 /* ViewRelated */,
 				A7972EBB2C075F4000A63044 /* Services */,
