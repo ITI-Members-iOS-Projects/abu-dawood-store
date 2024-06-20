@@ -12,8 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Onboarding" customModule="Abu_Dawood" customModuleProvider="target">
             <connections>
+                <outlet property="nextButton" destination="m6k-5a-qVl" id="H97-hC-zLE"/>
                 <outlet property="onboardingCollectionView" destination="IgI-JH-x2m" id="QOG-Xu-JBC"/>
-                <outlet property="pageControl" destination="exj-xY-CP2" id="Xe0-mF-9nd"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -56,11 +56,6 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="onboardingSubtitle"/>
                     </userDefinedRuntimeAttributes>
                 </label>
-                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="exj-xY-CP2">
-                    <rect key="frame" x="0.0" y="609" width="115.66666666666667" height="25.666666666666629"/>
-                    <color key="pageIndicatorTintColor" name="SecondaryButtonnColor"/>
-                    <color key="currentPageIndicatorTintColor" name="Gradient"/>
-                </pageControl>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6k-5a-qVl" customClass="GradientButton" customModule="Abu_Dawood" customModuleProvider="target">
                     <rect key="frame" x="259" y="602" width="118" height="40"/>
                     <color key="backgroundColor" name="Gradient"/>
@@ -109,14 +104,11 @@
                 <constraint firstItem="leg-ek-wGG" firstAttribute="top" secondItem="IgI-JH-x2m" secondAttribute="bottom" id="6pA-q6-hNz"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="IgI-JH-x2m" secondAttribute="trailing" id="Bnr-zl-OqG"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="m6k-5a-qVl" secondAttribute="trailing" constant="16" id="Cvm-SB-WVS"/>
-                <constraint firstItem="exj-xY-CP2" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.294317" id="Rcb-L7-TuC"/>
                 <constraint firstItem="IgI-JH-x2m" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Zty-hq-GUI"/>
-                <constraint firstItem="exj-xY-CP2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="a7J-me-KE8"/>
                 <constraint firstItem="oyM-nW-01c" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="bJh-Jc-myN"/>
                 <constraint firstItem="m6k-5a-qVl" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.3" id="bKE-jg-aSa"/>
                 <constraint firstItem="leg-ek-wGG" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="ege-og-Obl"/>
                 <constraint firstItem="xzV-Yb-AXl" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.764207" id="frO-8a-bF2"/>
-                <constraint firstItem="m6k-5a-qVl" firstAttribute="centerY" secondItem="exj-xY-CP2" secondAttribute="centerY" id="igQ-xw-4BJ"/>
                 <constraint firstItem="IgI-JH-x2m" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.6" id="j2x-Rd-lfO"/>
                 <constraint firstItem="oyM-nW-01c" firstAttribute="top" secondItem="m6k-5a-qVl" secondAttribute="bottom" constant="40" id="nav-XW-lzn"/>
                 <constraint firstItem="m6k-5a-qVl" firstAttribute="top" secondItem="xzV-Yb-AXl" secondAttribute="bottom" constant="30" id="qmx-7V-C7P"/>

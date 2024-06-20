@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0009109D2C23C54000401941 /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009109C2C23C54000401941 /* CustomPageControl.swift */; };
+		000910A62C23DD1800401941 /* ChooseTypeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000910A52C23DD1800401941 /* ChooseTypeViewModel.swift */; };
 		006018AD2C211F3300F06794 /* Cairo-Bold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006018AC2C211F3300F06794 /* Cairo-Bold.swift */; };
 		006018AF2C2121C200F06794 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 006018AB2C211F1900F06794 /* Cairo-Bold.ttf */; };
 		006018B22C2121C800F06794 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00C6ED642C1B033200FC0970 /* Cairo-Regular.ttf */; };
@@ -29,8 +31,8 @@
 		00C6ED8C2C1B2E0E00FC0970 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6ED8B2C1B2E0E00FC0970 /* AuthViewModel.swift */; };
 		5E6AAA202C234D5600586B54 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AAA1E2C234D5600586B54 /* LoginViewController.swift */; };
 		5E6AAA212C234D5600586B54 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E6AAA1F2C234D5600586B54 /* LoginViewController.xib */; };
-		5E6AAA2C2C234E8C00586B54 /* document> ChooseTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AAA2A2C234E8C00586B54 /* document> ChooseTypeViewController.swift */; };
-		5E6AAA2D2C234E8C00586B54 /* document> ChooseTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E6AAA2B2C234E8C00586B54 /* document> ChooseTypeViewController.xib */; };
+		5E6AAA2C2C234E8C00586B54 /* ChooseTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AAA2A2C234E8C00586B54 /* ChooseTypeViewController.swift */; };
+		5E6AAA2D2C234E8C00586B54 /* ChooseTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E6AAA2B2C234E8C00586B54 /* ChooseTypeViewController.xib */; };
 		5E6AAA342C2350AA00586B54 /* GrediantYellowCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AAA332C2350AA00586B54 /* GrediantYellowCustomButton.swift */; };
 		5E6AAA362C23510C00586B54 /* UIColor+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AAA352C23510C00586B54 /* UIColor+Extentions.swift */; };
 		A74E95B12C0C9C7900115E79 /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E95B02C0C9C7900115E79 /* HomeUseCase.swift */; };
@@ -127,6 +129,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0009109C2C23C54000401941 /* CustomPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
+		000910A52C23DD1800401941 /* ChooseTypeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChooseTypeViewModel.swift; path = Project/Source/Utilities/Extensions/UI/ChooseTypeViewModel.swift; sourceTree = SOURCE_ROOT; };
 		006018AB2C211F1900F06794 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
 		006018AC2C211F3300F06794 /* Cairo-Bold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cairo-Bold.swift"; sourceTree = "<group>"; };
 		0081FC022C23017700071737 /* CairoButtonRegular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CairoButtonRegular.swift; sourceTree = "<group>"; };
@@ -149,8 +153,8 @@
 		00C6ED8B2C1B2E0E00FC0970 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		5E6AAA1E2C234D5600586B54 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5E6AAA1F2C234D5600586B54 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		5E6AAA2A2C234E8C00586B54 /* document> ChooseTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "document> ChooseTypeViewController.swift"; sourceTree = "<group>"; };
-		5E6AAA2B2C234E8C00586B54 /* document> ChooseTypeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "document> ChooseTypeViewController.xib"; sourceTree = "<group>"; };
+		5E6AAA2A2C234E8C00586B54 /* ChooseTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTypeViewController.swift; sourceTree = "<group>"; };
+		5E6AAA2B2C234E8C00586B54 /* ChooseTypeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseTypeViewController.xib; sourceTree = "<group>"; };
 		5E6AAA332C2350AA00586B54 /* GrediantYellowCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrediantYellowCustomButton.swift; sourceTree = "<group>"; };
 		5E6AAA352C23510C00586B54 /* UIColor+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extentions.swift"; sourceTree = "<group>"; };
 		A74E95B02C0C9C7900115E79 /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
@@ -260,6 +264,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		000910A32C23DC7F00401941 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				0009109C2C23C54000401941 /* CustomPageControl.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		00151CD42C23E21A002BF88E /* GrediantYellowCustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				5E6AAA332C2350AA00586B54 /* GrediantYellowCustomButton.swift */,
+			);
+			path = GrediantYellowCustomButton;
+			sourceTree = "<group>";
+		};
 		0083C6642C21BBC4003890F1 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -406,6 +426,7 @@
 		5E6AAA282C234E6300586B54 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				000910A52C23DD1800401941 /* ChooseTypeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -413,8 +434,8 @@
 		5E6AAA292C234E6D00586B54 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5E6AAA2A2C234E8C00586B54 /* document> ChooseTypeViewController.swift */,
-				5E6AAA2B2C234E8C00586B54 /* document> ChooseTypeViewController.xib */,
+				5E6AAA2A2C234E8C00586B54 /* ChooseTypeViewController.swift */,
+				5E6AAA2B2C234E8C00586B54 /* ChooseTypeViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -470,6 +491,7 @@
 		A7583EBE2C0DB58B004F0908 /* OnboardingModules */ = {
 			isa = PBXGroup;
 			children = (
+				000910A32C23DC7F00401941 /* ReusableViews */,
 				0083C6642C21BBC4003890F1 /* Cells */,
 				00C6ED7B2C1B1F4C00FC0970 /* ViewModel */,
 				00C6ED7A2C1B1F4600FC0970 /* View */,
@@ -639,8 +661,8 @@
 		A7972ED32C07653700A63044 /* ReusableViews */ = {
 			isa = PBXGroup;
 			children = (
+				00151CD42C23E21A002BF88E /* GrediantYellowCustomButton */,
 				A7583EBF2C0DB5F1004F0908 /* CustomTabBar */,
-				5E6AAA332C2350AA00586B54 /* GrediantYellowCustomButton.swift */,
 			);
 			path = ReusableViews;
 			sourceTree = "<group>";
@@ -907,7 +929,7 @@
 				A7972E8D2C074C4100A63044 /* Assets.xcassets in Resources */,
 				00C6ED8A2C1B2E0000FC0970 /* AuthViewController.xib in Resources */,
 				00C6ED7F2C1B1F6F00FC0970 /* Onboarding.xib in Resources */,
-				5E6AAA2D2C234E8C00586B54 /* document> ChooseTypeViewController.xib in Resources */,
+				5E6AAA2D2C234E8C00586B54 /* ChooseTypeViewController.xib in Resources */,
 				006018AF2C2121C200F06794 /* Cairo-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -976,6 +998,7 @@
 				A7583EBC2C0DB504004F0908 /* UserDefaultsManager.swift in Sources */,
 				A7972F782C07702500A63044 /* NSMutableAttributedString+Extensions.swift in Sources */,
 				A7972F4E2C076FFC00A63044 /* CGFloat+DD.swift in Sources */,
+				000910A62C23DD1800401941 /* ChooseTypeViewModel.swift in Sources */,
 				A7972EFF2C076A9F00A63044 /* LocationService.swift in Sources */,
 				A7972ED72C07658400A63044 /* BaseViewModel.swift in Sources */,
 				A7972ED22C0764EF00A63044 /* ResultError.swift in Sources */,
@@ -993,7 +1016,7 @@
 				A7972F802C07702500A63044 /* UIControl+EX.swift in Sources */,
 				A7972F792C07702500A63044 /* Numeric+Currency.swift in Sources */,
 				A7972F402C076FFB00A63044 /* UIView+DD.swift in Sources */,
-				5E6AAA2C2C234E8C00586B54 /* document> ChooseTypeViewController.swift in Sources */,
+				5E6AAA2C2C234E8C00586B54 /* ChooseTypeViewController.swift in Sources */,
 				00C6ED7E2C1B1F6F00FC0970 /* Onboarding.swift in Sources */,
 				A7972EC62C075FF100A63044 /* BaseMultiRequestHandler.swift in Sources */,
 				A7972F7D2C07702500A63044 /* Optional+Ex.swift in Sources */,
@@ -1005,6 +1028,7 @@
 				A7972F182C076F0E00A63044 /* SharedRefrencProtocol.swift in Sources */,
 				A7972EDA2C07659700A63044 /* BaseViewController.swift in Sources */,
 				A7972EE32C07670300A63044 /* LocalizationManager.swift in Sources */,
+				0009109D2C23C54000401941 /* CustomPageControl.swift in Sources */,
 				A7972ECC2C07647200A63044 /* GeneralApis.swift in Sources */,
 				A7972ECA2C07604F00A63044 /* BaseRequstBuilder.swift in Sources */,
 				A7972ED02C0764C700A63044 /* RequstParsing.swift in Sources */,
