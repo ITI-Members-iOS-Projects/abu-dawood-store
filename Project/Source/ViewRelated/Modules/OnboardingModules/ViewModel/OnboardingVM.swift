@@ -30,6 +30,7 @@ final class OnboardingViewModel: BaseViewModelProtocol {
     
     func showAuth() {
         coordinator?.showAuth()
+//        UserDefaultsManager.sharedInstance.sawOnboarding()
     }
     
 }

@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import UIKit
 
 final class SplashViewModel: BaseViewModelProtocol {
     
@@ -21,8 +20,7 @@ final class SplashViewModel: BaseViewModelProtocol {
     }
     
     func viewModelDidLoad() {
-//        showHome()
-        coordinator?.showOnboarding()
+        showHome()
     }
 
     private func showHome() {

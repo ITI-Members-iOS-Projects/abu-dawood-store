@@ -17,6 +17,8 @@ protocol HomeCoordinatorContact: AnyObject {
     func navigateBack()
     func navigateToRoot()
     func dismiss(completion: (() -> Void)?)
+    
+    var navigationController: UINavigationController { get }
 }
 
 final class HomeCoordinator: Coordinator {
@@ -39,10 +41,9 @@ extension HomeCoordinator: HomeCoordinatorContact {
         navigationController.setViewControllers([viewController], animated: false)
     }
     func showAuth() {
-        let viewModel = AuthViewModel(coordinator: self)
-        let viewController = AuthViewController(viewModel: viewModel)
-        let vc = LoginViewController()
-        navigationController.setViewControllers([vc], animated: false)
+        let viewModel = ChooseTypeViewModel(coordinator: self)
+        let viewController = ChooseTypeViewController(viewModel: viewModel)
+        navigationController.setViewControllers([viewController], animated: false)
     }
     func showOnboarding() {
         let viewModel = OnboardingViewModel(coordinator: self)
