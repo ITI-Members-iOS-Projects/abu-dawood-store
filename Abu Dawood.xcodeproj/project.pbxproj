@@ -27,6 +27,12 @@
 		00C6ED892C1B2E0000FC0970 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6ED872C1B2E0000FC0970 /* AuthViewController.swift */; };
 		00C6ED8A2C1B2E0000FC0970 /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C6ED882C1B2E0000FC0970 /* AuthViewController.xib */; };
 		00C6ED8C2C1B2E0E00FC0970 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6ED8B2C1B2E0E00FC0970 /* AuthViewModel.swift */; };
+		5E6AAA202C234D5600586B54 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AAA1E2C234D5600586B54 /* LoginViewController.swift */; };
+		5E6AAA212C234D5600586B54 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E6AAA1F2C234D5600586B54 /* LoginViewController.xib */; };
+		5E6AAA2C2C234E8C00586B54 /* document> ChooseTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AAA2A2C234E8C00586B54 /* document> ChooseTypeViewController.swift */; };
+		5E6AAA2D2C234E8C00586B54 /* document> ChooseTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E6AAA2B2C234E8C00586B54 /* document> ChooseTypeViewController.xib */; };
+		5E6AAA342C2350AA00586B54 /* GrediantYellowCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AAA332C2350AA00586B54 /* GrediantYellowCustomButton.swift */; };
+		5E6AAA362C23510C00586B54 /* UIColor+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AAA352C23510C00586B54 /* UIColor+Extentions.swift */; };
 		A74E95B12C0C9C7900115E79 /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74E95B02C0C9C7900115E79 /* HomeUseCase.swift */; };
 		A7583EBA2C0DB4ED004F0908 /* UserDefaultsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7583EB92C0DB4ED004F0908 /* UserDefaultsProtocol.swift */; };
 		A7583EBC2C0DB504004F0908 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7583EBB2C0DB504004F0908 /* UserDefaultsManager.swift */; };
@@ -141,6 +147,12 @@
 		00C6ED872C1B2E0000FC0970 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		00C6ED882C1B2E0000FC0970 /* AuthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
 		00C6ED8B2C1B2E0E00FC0970 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		5E6AAA1E2C234D5600586B54 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5E6AAA1F2C234D5600586B54 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		5E6AAA2A2C234E8C00586B54 /* document> ChooseTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "document> ChooseTypeViewController.swift"; sourceTree = "<group>"; };
+		5E6AAA2B2C234E8C00586B54 /* document> ChooseTypeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "document> ChooseTypeViewController.xib"; sourceTree = "<group>"; };
+		5E6AAA332C2350AA00586B54 /* GrediantYellowCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrediantYellowCustomButton.swift; sourceTree = "<group>"; };
+		5E6AAA352C23510C00586B54 /* UIColor+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extentions.swift"; sourceTree = "<group>"; };
 		A74E95B02C0C9C7900115E79 /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
 		A7583EB92C0DB4ED004F0908 /* UserDefaultsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsProtocol.swift; sourceTree = "<group>"; };
 		A7583EBB2C0DB504004F0908 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
@@ -357,6 +369,87 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		5E6AAA1A2C234CDF00586B54 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5E6AAA1C2C234CFE00586B54 /* View */,
+				5E6AAA1B2C234CF500586B54 /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5E6AAA1B2C234CF500586B54 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5E6AAA1C2C234CFE00586B54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E6AAA1E2C234D5600586B54 /* LoginViewController.swift */,
+				5E6AAA1F2C234D5600586B54 /* LoginViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E6AAA272C234E5400586B54 /* ChooseType */ = {
+			isa = PBXGroup;
+			children = (
+				5E6AAA292C234E6D00586B54 /* View */,
+				5E6AAA282C234E6300586B54 /* ViewModel */,
+			);
+			path = ChooseType;
+			sourceTree = "<group>";
+		};
+		5E6AAA282C234E6300586B54 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5E6AAA292C234E6D00586B54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E6AAA2A2C234E8C00586B54 /* document> ChooseTypeViewController.swift */,
+				5E6AAA2B2C234E8C00586B54 /* document> ChooseTypeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E6AAA3C2C2357AA00586B54 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5E6AAA3F2C235F8900586B54 /* Entities */,
+				5E6AAA402C235F9500586B54 /* UseCases */,
+				5E6AAA412C235FA900586B54 /* GateWay */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5E6AAA3F2C235F8900586B54 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		5E6AAA402C235F9500586B54 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		5E6AAA412C235FA900586B54 /* GateWay */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GateWay;
+			sourceTree = "<group>";
+		};
 		A74E95AF2C0C9C4C00115E79 /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -422,6 +515,7 @@
 		A7972E972C074C5800A63044 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				5E6AAA3C2C2357AA00586B54 /* Core */,
 				A7972EBD2C075F5000A63044 /* Utilities */,
 				A7972EBC2C075F4800A63044 /* ViewRelated */,
 				A7972EBB2C075F4000A63044 /* Services */,
@@ -546,6 +640,7 @@
 			isa = PBXGroup;
 			children = (
 				A7583EBF2C0DB5F1004F0908 /* CustomTabBar */,
+				5E6AAA332C2350AA00586B54 /* GrediantYellowCustomButton.swift */,
 			);
 			path = ReusableViews;
 			sourceTree = "<group>";
@@ -553,6 +648,8 @@
 		A7972ED42C07654900A63044 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				5E6AAA272C234E5400586B54 /* ChooseType */,
+				5E6AAA1A2C234CDF00586B54 /* Login */,
 				00C6ED832C1B2DD100FC0970 /* Authetication */,
 				00C6ED6E2C1B11D100FC0970 /* Splash */,
 				A7583EBE2C0DB58B004F0908 /* OnboardingModules */,
@@ -673,6 +770,7 @@
 				A7972F242C076FF300A63044 /* UIView+DD.swift */,
 				A7972F2E2C076FF700A63044 /* UIViewController+DD.swift */,
 				0081FC052C2318D700071737 /* UIButtonGradient.swift */,
+				5E6AAA352C23510C00586B54 /* UIColor+Extentions.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -801,6 +899,7 @@
 			files = (
 				006018B22C2121C800F06794 /* Cairo-Regular.ttf in Resources */,
 				A7972EEF2C07697800A63044 /* Localizable.strings in Resources */,
+				5E6AAA212C234D5600586B54 /* LoginViewController.xib in Resources */,
 				006018B42C21246300F06794 /* Cairo-SemiBold.ttf in Resources */,
 				A7972F132C076C8C00A63044 /* HomeViewController.xib in Resources */,
 				0083C6682C21BBE5003890F1 /* OnboardingCollectionViewCell.xib in Resources */,
@@ -808,6 +907,7 @@
 				A7972E8D2C074C4100A63044 /* Assets.xcassets in Resources */,
 				00C6ED8A2C1B2E0000FC0970 /* AuthViewController.xib in Resources */,
 				00C6ED7F2C1B1F6F00FC0970 /* Onboarding.xib in Resources */,
+				5E6AAA2D2C234E8C00586B54 /* document> ChooseTypeViewController.xib in Resources */,
 				006018AF2C2121C200F06794 /* Cairo-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -893,10 +993,12 @@
 				A7972F802C07702500A63044 /* UIControl+EX.swift in Sources */,
 				A7972F792C07702500A63044 /* Numeric+Currency.swift in Sources */,
 				A7972F402C076FFB00A63044 /* UIView+DD.swift in Sources */,
+				5E6AAA2C2C234E8C00586B54 /* document> ChooseTypeViewController.swift in Sources */,
 				00C6ED7E2C1B1F6F00FC0970 /* Onboarding.swift in Sources */,
 				A7972EC62C075FF100A63044 /* BaseMultiRequestHandler.swift in Sources */,
 				A7972F7D2C07702500A63044 /* Optional+Ex.swift in Sources */,
 				A7972F432C076FFB00A63044 /* UICollectionView+Extension.swift in Sources */,
+				5E6AAA342C2350AA00586B54 /* GrediantYellowCustomButton.swift in Sources */,
 				A7972EE62C07675500A63044 /* XIBLocalization.swift in Sources */,
 				A7972F3D2C076FFB00A63044 /* UIImage+DD.swift in Sources */,
 				A7972F052C076B0E00A63044 /* AppCoordinator.swift in Sources */,
@@ -907,6 +1009,7 @@
 				A7972ECA2C07604F00A63044 /* BaseRequstBuilder.swift in Sources */,
 				A7972ED02C0764C700A63044 /* RequstParsing.swift in Sources */,
 				A7972F202C076F8800A63044 /* KeychainSwiftAccessOptions.swift in Sources */,
+				5E6AAA362C23510C00586B54 /* UIColor+Extentions.swift in Sources */,
 				A7972F122C076C8C00A63044 /* HomeViewController.swift in Sources */,
 				A7972EDC2C07668B00A63044 /* PostPublished.swift in Sources */,
 				A7972F482C076FFB00A63044 /* LongPressGesture+DD.swift in Sources */,
@@ -934,6 +1037,7 @@
 				A7972F072C076B2E00A63044 /* CoordinatorProtocol.swift in Sources */,
 				A7972F562C076FFC00A63044 /* ImageRepresentable.swift in Sources */,
 				A7972F4A2C076FFB00A63044 /* UIViewController+DD.swift in Sources */,
+				5E6AAA202C234D5600586B54 /* LoginViewController.swift in Sources */,
 				A7972EC82C07602600A63044 /* BaseRequestHandler.swift in Sources */,
 				A7972F1E2C076F6C00A63044 /* TegKeychainConstants.swift in Sources */,
 				A7972E862C074C3E00A63044 /* SceneDelegate.swift in Sources */,

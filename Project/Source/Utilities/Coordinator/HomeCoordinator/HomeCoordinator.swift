@@ -41,7 +41,8 @@ extension HomeCoordinator: HomeCoordinatorContact {
     func showAuth() {
         let viewModel = AuthViewModel(coordinator: self)
         let viewController = AuthViewController(viewModel: viewModel)
-        navigationController.setViewControllers([viewController], animated: false)
+        let vc = LoginViewController()
+        navigationController.setViewControllers([vc], animated: false)
     }
     func showOnboarding() {
         let viewModel = OnboardingViewModel(coordinator: self)
