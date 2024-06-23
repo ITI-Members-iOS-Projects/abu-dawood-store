@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ChooseTypeViewController: BaseViewController<ChooseTypeViewModel> {
+final class ChooseTypeViewController: BaseViewController<ChooseTypeViewModel> {
 
     override func viewDidLoad() {
         super.viewDidLoad()

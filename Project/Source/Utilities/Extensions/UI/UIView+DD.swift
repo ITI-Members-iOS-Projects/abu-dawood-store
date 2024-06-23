@@ -12,9 +12,9 @@ public extension UIView {
         }
     }
     
-    @IBInspectable var circuler: Bool {
+    @IBInspectable var circular: Bool {
         get {
-            return self.circuler
+            return self.circular
         }
         set {
             layer.cornerRadius = layer.cornerRadius / 2

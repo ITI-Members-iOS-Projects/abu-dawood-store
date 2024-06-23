@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomizedTabBar" customModule="Abu_Dawood" customModuleProvider="target">
+            <connections>
+                <outlet property="categoryButton" destination="SrJ-m1-8ok" id="mhb-cU-Jjr"/>
+                <outlet property="categoryImageButton" destination="v52-9Q-QC9" id="E9x-fd-ME7"/>
+                <outlet property="homeButton" destination="pqI-UL-bgn" id="6nc-t2-VAq"/>
+                <outlet property="homeImageButton" destination="nCL-Hs-l7s" id="wIs-8y-Xuv"/>
+                <outlet property="moreButton" destination="kAs-YZ-aQa" id="qSn-ak-Wii"/>
+                <outlet property="moreImageButton" destination="Nbd-BP-q5T" id="3SA-gI-XdR"/>
+                <outlet property="purchasesButton" destination="RDh-1o-qDw" id="a0m-tl-RRo"/>
+                <outlet property="purchasesImageButton" destination="FCR-pz-GUH" id="JkK-3t-bxS"/>
+                <outlet property="view" destination="iN0-l3-epB" id="tkK-ZH-eV8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="460" height="125"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="PT7-zO-qcK">
+                    <rect key="frame" x="0.0" y="17" width="460" height="100"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="ZqF-Ph-Pd5">
+                            <rect key="frame" x="0.0" y="0.0" width="92" height="100"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCL-Hs-l7s">
+                                    <rect key="frame" x="0.0" y="0.0" width="92" height="55.666666666666664"/>
+                                    <color key="tintColor" name="grey(#969696)"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="homeUnClicked">
+                                        <color key="baseForegroundColor" name="grey(#969696)"/>
+                                    </buttonConfiguration>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqI-UL-bgn" customClass="CairoButtonSemiBold" customModule="Abu_Dawood" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="55.666666666666671" width="92" height="44.333333333333329"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Home">
+                                        <color key="titleColor" name="grey(#969696)"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                            <real key="value" value="12"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="home"/>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="cVp-kw-ZC0">
+                            <rect key="frame" x="92" y="0.0" width="92" height="100"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v52-9Q-QC9">
+                                    <rect key="frame" x="0.0" y="0.0" width="92" height="56.333333333333336"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="CategoryUnClicked"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrJ-m1-8ok" customClass="CairoButtonSemiBold" customModule="Abu_Dawood" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="56.333333333333329" width="92" height="43.666666666666671"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Category">
+                                        <color key="titleColor" name="grey(#969696)"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                            <real key="value" value="12"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="category"/>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mRr-yY-dT1">
+                            <rect key="frame" x="184" y="0.0" width="92" height="100"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uhw-RV-oun" customClass="CairoSemiBold" customModule="Abu_Dawood" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="68" width="92" height="20.333333333333329"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" name="grey(#969696)"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="cart"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                            <real key="value" value="14"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="Uhw-RV-oun" secondAttribute="trailing" id="F6h-sC-RDx"/>
+                                <constraint firstItem="Uhw-RV-oun" firstAttribute="leading" secondItem="mRr-yY-dT1" secondAttribute="leading" id="Y2B-NK-uuA"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="qnZ-iO-h4h">
+                            <rect key="frame" x="276" y="0.0" width="92" height="100"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FCR-pz-GUH">
+                                    <rect key="frame" x="0.0" y="0.0" width="92" height="55.666666666666664"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="PurchasesUnClicked"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDh-1o-qDw" customClass="CairoButtonSemiBold" customModule="Abu_Dawood" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="55.666666666666671" width="92" height="44.333333333333329"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Purchases">
+                                        <color key="titleColor" name="grey(#969696)"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                            <real key="value" value="12"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="purchases"/>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="dJb-vJ-FTZ">
+                            <rect key="frame" x="368" y="0.0" width="92" height="100"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nbd-BP-q5T">
+                                    <rect key="frame" x="0.0" y="0.0" width="92" height="55.666666666666664"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="MoreUnClicked"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAs-YZ-aQa" customClass="CairoButtonSemiBold" customModule="Abu_Dawood" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="55.666666666666671" width="92" height="44.333333333333329"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="More">
+                                        <color key="titleColor" name="grey(#969696)"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                            <real key="value" value="12"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="more"/>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Uhw-RV-oun" firstAttribute="centerY" secondItem="SrJ-m1-8ok" secondAttribute="centerY" id="EZK-B2-AnD"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="PT7-zO-qcK" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.8" id="F1n-ml-Es8"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="PT7-zO-qcK" secondAttribute="trailing" id="RDx-h7-lZK"/>
+                <constraint firstAttribute="bottom" secondItem="PT7-zO-qcK" secondAttribute="bottom" constant="8" id="V6t-uy-wot"/>
+                <constraint firstItem="PT7-zO-qcK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="zYP-Px-YJc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="20"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="116.03053435114504" y="204.92957746478874"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="RDh-1o-qDw">
+            <size key="intrinsicContentSize" width="59" height="27"/>
+        </designable>
+        <designable name="SrJ-m1-8ok">
+            <size key="intrinsicContentSize" width="52" height="27"/>
+        </designable>
+        <designable name="Uhw-RV-oun">
+            <size key="intrinsicContentSize" width="41.333333333333336" height="20.333333333333332"/>
+        </designable>
+        <designable name="kAs-YZ-aQa">
+            <size key="intrinsicContentSize" width="30" height="27"/>
+        </designable>
+        <designable name="pqI-UL-bgn">
+            <size key="intrinsicContentSize" width="34" height="27"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="CategoryUnClicked" width="21" height="21"/>
+        <image name="MoreUnClicked" width="20" height="20"/>
+        <image name="PurchasesUnClicked" width="17" height="20"/>
+        <image name="homeUnClicked" width="21" height="20"/>
+        <namedColor name="grey(#969696)">
+            <color red="0.58799999952316284" green="0.58799999952316284" blue="0.58799999952316284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
