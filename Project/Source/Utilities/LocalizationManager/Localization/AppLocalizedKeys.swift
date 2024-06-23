@@ -21,6 +21,13 @@ enum AppLocalizedKeys: String, CaseIterable {
     case next
     case skip
     
+    // MARK: - TabBar Module
+    case home
+    case category
+    case cart // Button
+    case purchases
+    case more
+    
     // MARK: - Auth Module
     case invoiceNum
     case reponseDataNullKey

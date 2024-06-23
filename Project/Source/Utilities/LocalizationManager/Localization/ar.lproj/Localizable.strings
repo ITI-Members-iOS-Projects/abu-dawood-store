@@ -7,8 +7,16 @@
 */
 "welcomeAbuDawood"="مرحباً بك في معارض أبوداود";
 "secondWelcomeTitle"="كل اللي محتاجه انت و عيلتك، في مكان واحد بين إيديك، بأنسب الأسعار";
+"onboardingTitle"="طلبك يوصل في أسرع وقت";
+"onboardingSubtitle"="كل منتجاتنا طازة، متحضرة مخصوص علشانك بكل عناية و إحترافية";
 "next"="التالي";
 "skip"="تخطي";
+"home"="الرئيسية";
+"category"="الأقسام";
+"cart"="العربة";
+"purchases"="مشترياتي";
+"more"="المزيد";
+
 "regFrom"="Registration Form";
 "invoiceNum"="Invoice Number";
 "poNumber"="PO Number";

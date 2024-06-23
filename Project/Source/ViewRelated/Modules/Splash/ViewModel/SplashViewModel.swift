@@ -20,7 +20,9 @@ final class SplashViewModel: BaseViewModelProtocol {
     }
     
     func viewModelDidLoad() {
-        showHome()
+//        showHome()
+//        coordinator?.showTabBar()
+        coordinator?.showTabBar()
     }
 
     private func showHome() {
@@ -31,7 +33,7 @@ final class SplashViewModel: BaseViewModelProtocol {
             let isLoggedIn = UserDefaultsManager.sharedInstance.isLoggedIn()
             if isThatSecondTime {
                 if isLoggedIn {
-                    coordinator?.showHome()
+                    coordinator?.showTabBar()
                 } else {
                     coordinator?.showAuth()
                 }
