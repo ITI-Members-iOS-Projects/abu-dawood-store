@@ -7,7 +7,7 @@
 
 import UIKit
 
-class OnboardingCollectionViewCell: UICollectionViewCell {
+final class OnboardingCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet private weak var onboardingImage: UIImageView!
     

@@ -1,18 +1,17 @@
 //
-//  LoginViewController.swift
+//  HomeViewController.swift
 //  Abu Dawood
 //
-//  Created by Abdallah ismail on 19/06/2024.
+//  Created by Fady Sameh on 6/23/24.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
-    @IBOutlet weak var buttonView: UIView!
-    
+final class HomeViewController: BaseViewController<HomeViewModel> {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        buttonView.addUpperDropShadow()
+
         // Do any additional setup after loading the view.
     }
 

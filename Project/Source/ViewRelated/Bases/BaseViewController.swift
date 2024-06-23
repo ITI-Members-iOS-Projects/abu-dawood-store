@@ -14,7 +14,8 @@ class BaseViewController<T: BaseViewModelProtocol>: UIViewController {
     private var scrollingView: UIScrollView?
     private var keyboardWillShowCompletion: ((CGRect) -> Void)?
     private var keyboardWillHideCompletion: (() -> Void)?
-    
+    var cancellables = Set<AnyCancellable>()
+
     var viewModel: T
     
     lazy var cancellable: Set<AnyCancellable> = {

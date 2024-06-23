@@ -1,25 +1,21 @@
 //
-//  HomeViewModel.swift
+//  CategoryViewModel.swift
 //  Abu Dawood
 //
-//  Created by MESHO on 29/05/2024.
+//  Created by Fady Sameh on 6/23/24.
 //
 
 import Foundation
 
-final class HomeViewModel: BaseViewModelProtocol {
-//    var coordinator: SplashCoordinatorContact?
-    
+final class CategoryViewModel: BaseViewModelProtocol {
     var coordinator: HomeCoordinatorContact?
     
     
     var viewStatesPublisher: PassthroughSubject<ViewState, Never> = .init()
-    private var useCase: HomeUseCaseContact
     private var cancellables = Set<AnyCancellable>()
     
-    init(coordinator: HomeCoordinatorContact? = nil, useCase: HomeUseCaseContact = HomeUseCase()) {
+    init(coordinator: HomeCoordinatorContact? = nil) {
         self.coordinator = coordinator
-        self.useCase = useCase
     }
     
     func viewModelDidLoad() {
@@ -27,3 +23,4 @@ final class HomeViewModel: BaseViewModelProtocol {
     }
     
 }
+

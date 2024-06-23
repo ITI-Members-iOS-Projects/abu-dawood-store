@@ -9,10 +9,13 @@ import Foundation
 import UIKit
 
 protocol HomeCoordinatorContact: AnyObject {
-    func showHome()
     func showAuth()
     func showOnboarding()
     func showSplashController()
+    
+    func showTabBar()
+    func showCartScreen()
+    func showMoreScreen()
     
     func navigateBack()
     func navigateToRoot()
@@ -50,12 +53,21 @@ extension HomeCoordinator: HomeCoordinatorContact {
         let viewController = Onboarding(viewModel: viewModel)
         navigationController.setViewControllers([viewController], animated: false)
     }
-    func showHome() {
-        let viewModel = HomeViewModel(coordinator: self)
-        let viewController = HomeViewController(viewModel: viewModel)
+    func showTabBar() {
+        let viewModel = CustomTabBarViewModel(coordinator: self)
+        let viewController = CustomTabBar(viewModel: viewModel)
         navigationController.setViewControllers([viewController], animated: false)
     }
-    
+    func showCartScreen() {
+        let viewModel = CartViewModel(coordinator: self)
+        let viewController = CartViewController(viewModel: viewModel)
+        navigationController.pushViewController(viewController, animated: true)
+    }
+    func showMoreScreen() {
+        let viewModel = MoreViewModel(coordinator: self)
+        let viewController = MoreViewController(viewModel: viewModel)
+        navigationController.pushViewController(viewController, animated: true)
+    }
     func dismiss(completion: (() -> Void)?) {
         
     }

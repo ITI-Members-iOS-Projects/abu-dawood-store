@@ -30,6 +30,7 @@ class CairoButtonSemiBold: UIButton {
     }
     private func updateView() {
         self.titleLabel?.font = R.font.cairoSemiBold.callAsFunction(size: fontSize)
+//        self.titleLabel?.font = UIFont(fontname: "Cairo-SemiBold", fontSize: 4)
     }
     
 }

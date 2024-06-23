@@ -11,6 +11,14 @@
 "onboardingSubtitle"="كل منتجاتنا طازة، متحضرة مخصوص علشانك بكل عناية و إحترافية";
 "next"="التالي";
 "skip"="تخطي";
+
+"home"="Home";
+"category"="Category";
+"cart"="Cart";
+"purchases"="Purchases";
+"more"="More";
+
+
 "regFrom"="Registration Form";
 "invoiceNum"="Invoice Number";
 "poNumber"="PO Number";
