@@ -17,6 +17,10 @@
 		0081FC062C2318D700071737 /* UIButtonGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0081FC052C2318D700071737 /* UIButtonGradient.swift */; };
 		0083C6672C21BBE5003890F1 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083C6652C21BBE5003890F1 /* OnboardingCollectionViewCell.swift */; };
 		0083C6682C21BBE5003890F1 /* OnboardingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0083C6662C21BBE5003890F1 /* OnboardingCollectionViewCell.xib */; };
+		00C04FCD2C299C3C00F2CD5C /* CutsomButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C04FCC2C299C3C00F2CD5C /* CutsomButtonView.xib */; };
+		00C04FCE2C299C3C00F2CD5C /* CutsomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C04FCB2C299C3C00F2CD5C /* CutsomButtonView.swift */; };
+		00C04FD42C29A4E400F2CD5C /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C04FD32C29A4E400F2CD5C /* HeaderView.xib */; };
+		00C04FD52C29A4E400F2CD5C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C04FD22C29A4E400F2CD5C /* HeaderView.swift */; };
 		00C6ED662C1B033200FC0970 /* Cairo-SemiBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6ED652C1B033200FC0970 /* Cairo-SemiBold.swift */; };
 		00C6ED672C1B033200FC0970 /* Cairo-Regular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6ED622C1B033200FC0970 /* Cairo-Regular.swift */; };
 		00C6ED682C1B033200FC0970 /* CairoButton-SemiBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6ED632C1B033200FC0970 /* CairoButton-SemiBold.swift */; };
@@ -48,6 +52,8 @@
 		00D04DFA2C283C2800F3A665 /* MoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D04DF92C283C2800F3A665 /* MoreViewModel.swift */; };
 		00D04DFD2C283C4100F3A665 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D04DFB2C283C4100F3A665 /* MoreViewController.swift */; };
 		00D04DFE2C283C4100F3A665 /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00D04DFC2C283C4100F3A665 /* MoreViewController.xib */; };
+		00EAD9752C3044C10047EECC /* OffersCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EAD9742C3044C10047EECC /* OffersCollectionViewCell.xib */; };
+		00EAD9762C3044C10047EECC /* OffersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EAD9732C3044C10047EECC /* OffersCollectionViewCell.swift */; };
 		5E6AAA202C234D5600586B54 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AAA1E2C234D5600586B54 /* LoginViewController.swift */; };
 		5E6AAA212C234D5600586B54 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E6AAA1F2C234D5600586B54 /* LoginViewController.xib */; };
 		5E6AAA2C2C234E8C00586B54 /* ChooseTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6AAA2A2C234E8C00586B54 /* ChooseTypeViewController.swift */; };
@@ -152,6 +158,10 @@
 		0081FC052C2318D700071737 /* UIButtonGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonGradient.swift; sourceTree = "<group>"; };
 		0083C6652C21BBE5003890F1 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		0083C6662C21BBE5003890F1 /* OnboardingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingCollectionViewCell.xib; sourceTree = "<group>"; };
+		00C04FCB2C299C3C00F2CD5C /* CutsomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutsomButtonView.swift; sourceTree = "<group>"; };
+		00C04FCC2C299C3C00F2CD5C /* CutsomButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CutsomButtonView.xib; sourceTree = "<group>"; };
+		00C04FD22C29A4E400F2CD5C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		00C04FD32C29A4E400F2CD5C /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		00C6ED612C1B033200FC0970 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
 		00C6ED622C1B033200FC0970 /* Cairo-Regular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cairo-Regular.swift"; sourceTree = "<group>"; };
 		00C6ED632C1B033200FC0970 /* CairoButton-SemiBold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CairoButton-SemiBold.swift"; sourceTree = "<group>"; };
@@ -185,6 +195,8 @@
 		00D04DF92C283C2800F3A665 /* MoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewModel.swift; sourceTree = "<group>"; };
 		00D04DFB2C283C4100F3A665 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		00D04DFC2C283C4100F3A665 /* MoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
+		00EAD9732C3044C10047EECC /* OffersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersCollectionViewCell.swift; sourceTree = "<group>"; };
+		00EAD9742C3044C10047EECC /* OffersCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OffersCollectionViewCell.xib; sourceTree = "<group>"; };
 		5E6AAA1E2C234D5600586B54 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5E6AAA1F2C234D5600586B54 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		5E6AAA2A2C234E8C00586B54 /* ChooseTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTypeViewController.swift; sourceTree = "<group>"; };
@@ -317,6 +329,24 @@
 				0083C6662C21BBE5003890F1 /* OnboardingCollectionViewCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		00C04FC22C2998D000F2CD5C /* CutsomButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				00C04FCB2C299C3C00F2CD5C /* CutsomButtonView.swift */,
+				00C04FCC2C299C3C00F2CD5C /* CutsomButtonView.xib */,
+			);
+			path = CutsomButtonView;
+			sourceTree = "<group>";
+		};
+		00C04FD12C29A4AA00F2CD5C /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				00C04FD22C29A4E400F2CD5C /* HeaderView.swift */,
+				00C04FD32C29A4E400F2CD5C /* HeaderView.xib */,
+			);
+			path = HeaderView;
 			sourceTree = "<group>";
 		};
 		00C6ED692C1B033D00FC0970 /* Fonts */ = {
@@ -578,6 +608,15 @@
 				00D04DF72C283C0400F3A665 /* CartViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		00EAD9722C30449E0047EECC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				00EAD9732C3044C10047EECC /* OffersCollectionViewCell.swift */,
+				00EAD9742C3044C10047EECC /* OffersCollectionViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		5E6AAA1A2C234CDF00586B54 /* Login */ = {
@@ -843,6 +882,8 @@
 		A7972ED32C07653700A63044 /* ReusableViews */ = {
 			isa = PBXGroup;
 			children = (
+				00C04FD12C29A4AA00F2CD5C /* HeaderView */,
+				00C04FC22C2998D000F2CD5C /* CutsomButtonView */,
 				00C7EAD62C25B1FC0060021F /* CustomizedTabBar */,
 				00151CD42C23E21A002BF88E /* GrediantYellowCustomButton */,
 			);
@@ -999,6 +1040,7 @@
 		A7972F0B2C076C3700A63044 /* HomeModule */ = {
 			isa = PBXGroup;
 			children = (
+				00EAD9722C30449E0047EECC /* Cells */,
 				A74E95AF2C0C9C4C00115E79 /* UseCase */,
 				A7972F0D2C076C5300A63044 /* ViewModel */,
 				A7972F0C2C076C4D00A63044 /* View */,
@@ -1106,11 +1148,13 @@
 				A7972EEF2C07697800A63044 /* Localizable.strings in Resources */,
 				5E6AAA212C234D5600586B54 /* LoginViewController.xib in Resources */,
 				006018B42C21246300F06794 /* Cairo-SemiBold.ttf in Resources */,
+				00EAD9752C3044C10047EECC /* OffersCollectionViewCell.xib in Resources */,
 				00C7EADE2C25BC760060021F /* CustomizedTabBar.xib in Resources */,
 				00D04DFE2C283C4100F3A665 /* MoreViewController.xib in Resources */,
 				0083C6682C21BBE5003890F1 /* OnboardingCollectionViewCell.xib in Resources */,
 				00D04DE32C28381400F3A665 /* CategoryViewController.xib in Resources */,
 				00D04DDF2C2837FF00F3A665 /* PurchasesViewController.xib in Resources */,
+				00C04FD42C29A4E400F2CD5C /* HeaderView.xib in Resources */,
 				00C6ED762C1B123900FC0970 /* Splash.xib in Resources */,
 				A7972E8D2C074C4100A63044 /* Assets.xcassets in Resources */,
 				00C6ED8A2C1B2E0000FC0970 /* AuthViewController.xib in Resources */,
@@ -1118,6 +1162,7 @@
 				5E6AAA2D2C234E8C00586B54 /* ChooseTypeViewController.xib in Resources */,
 				006018AF2C2121C200F06794 /* Cairo-Bold.ttf in Resources */,
 				00D04DE72C28388F00F3A665 /* HomeViewController.xib in Resources */,
+				00C04FCD2C299C3C00F2CD5C /* CutsomButtonView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1238,6 +1283,7 @@
 				A7972E842C074C3E00A63044 /* AppDelegate.swift in Sources */,
 				A7972F3F2C076FFB00A63044 /* UILabel+DD.swift in Sources */,
 				00D04DFD2C283C4100F3A665 /* MoreViewController.swift in Sources */,
+				00C04FD52C29A4E400F2CD5C /* HeaderView.swift in Sources */,
 				A74E95B12C0C9C7900115E79 /* HomeUseCase.swift in Sources */,
 				A7972F4C2C076FFB00A63044 /* UIEdgeInsets+DD.swift in Sources */,
 				00C6ED892C1B2E0000FC0970 /* AuthViewController.swift in Sources */,
@@ -1249,12 +1295,14 @@
 				00C6ED682C1B033200FC0970 /* CairoButton-SemiBold.swift in Sources */,
 				A7972F0A2C076B6200A63044 /* HomeCoordinator.swift in Sources */,
 				A7972F542C076FFC00A63044 /* UITableView+DD.swift in Sources */,
+				00C04FCE2C299C3C00F2CD5C /* CutsomButtonView.swift in Sources */,
 				A7972F752C07702500A63044 /* String+Extension.swift in Sources */,
 				A7972F702C07702500A63044 /* Dictionary+DD.swift in Sources */,
 				A7972F742C07702500A63044 /* Charchter+DD.swift in Sources */,
 				A7972F412C076FFB00A63044 /* UIColor+DD.swift in Sources */,
 				A7972F072C076B2E00A63044 /* CoordinatorProtocol.swift in Sources */,
 				A7972F562C076FFC00A63044 /* ImageRepresentable.swift in Sources */,
+				00EAD9762C3044C10047EECC /* OffersCollectionViewCell.swift in Sources */,
 				A7972F4A2C076FFB00A63044 /* UIViewController+DD.swift in Sources */,
 				5E6AAA202C234D5600586B54 /* LoginViewController.swift in Sources */,
 				00D04DC92C281F9C00F3A665 /* CustomTabBar.swift in Sources */,
