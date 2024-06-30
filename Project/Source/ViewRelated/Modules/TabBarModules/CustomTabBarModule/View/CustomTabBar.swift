@@ -74,7 +74,7 @@ extension CustomTabBar {
             middleButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             middleButton.widthAnchor.constraint(equalToConstant: 60),
             middleButton.heightAnchor.constraint(equalToConstant: 60),
-            middleButton.topAnchor.constraint(equalTo: customTabBar.topAnchor, constant: -16)
+            middleButton.topAnchor.constraint(equalTo: customTabBar.topAnchor, constant: -20)
         ])
         
         middleButton.addTarget(self, action: #selector(didSelectMiddleButton), for: .touchUpInside)

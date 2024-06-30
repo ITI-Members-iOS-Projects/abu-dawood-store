@@ -32,6 +32,12 @@ final class CustomizedTabBar: NibLoadingView {
         let shapeLayer = CAShapeLayer()
         //        shapeLayer.cornerRadius = 20
         shapeLayer.fillColor = UIColor.white.cgColor
+        // Set the shadow properties
+        shapeLayer.shadowColor = UIColor.black.cgColor // The color of the shadow
+        shapeLayer.shadowOpacity = 0.2 // The opacity of the shadow (0.0 to 1.0)
+        shapeLayer.shadowOffset = CGSize(width: 0, height: 2) // The offset of the shadow
+        shapeLayer.shadowRadius = 4 // The blur radius of the shadow
+
         return shapeLayer
     }()
     

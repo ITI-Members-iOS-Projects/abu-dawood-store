@@ -13,6 +13,26 @@ final class CartViewController: BaseViewController<CartViewModel> {
         super.viewDidLoad()
 
         // TODO: Refactor this function to improve performance
+//        setupBackButton()
+        navigationController?.navigationBar.isHidden = false
+
+    }
+    
+    private func setupBackButton() {
+        let backButton = UIButton(type: .custom)
+        backButton.setImage(UIImage(systemName: "chevron.right"), for: .normal)
+        backButton.setTitle("back", for: .normal)
+        backButton.setTitleColor(.systemBlue, for: .normal)
+        backButton.addTarget(self, action: #selector(backButtonTapped), for: .touchUpInside)
+        
+        let backBarButtonItem = UIBarButtonItem(customView: backButton)
+        self.navigationItem.leftBarButtonItem = backBarButtonItem
+    }
+    
+    @objc
+    func backButtonTapped() {
+        // Action for the custom back button
+        self.navigationController?.popViewController(animated: true)
     }
 
 }
